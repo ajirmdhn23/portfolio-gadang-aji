@@ -292,7 +292,7 @@ const experiences = [
   {
     period: "2025 — 2026",
     title: "Intern Staff — Ministry of Social Affairs and Community",
-    place: "BEM Fakultas Vokasi, University Brawijaya",
+    place: "BEM Fakultas Vokasi, Brawijaya University",
     description:
       "Contributing to organizational activities and social programs while developing communication, coordination, teamwork, and event management skills.",
     focus: "Achievement: Best Intern Staff Award",
@@ -650,7 +650,7 @@ export default function Home() {
 
       <section
         id="home"
-        className="mx-auto max-w-7xl px-5 pb-24 pt-36 sm:px-6 lg:pb-32 lg:pt-44"
+        className="mx-auto max-w-7xl px-5 pb-16 pt-36 sm:px-6 sm:pb-24 lg:pb-32 lg:pt-44"
       >
         <div className="grid items-center gap-16 lg:grid-cols-[1.15fr_0.85fr]">
           <div>
@@ -757,14 +757,14 @@ export default function Home() {
                 duration: 0.7,
                 delay: 0.4,
               }}
-              className="mt-14 grid max-w-3xl grid-cols-2 border-y border-[#18202d]/10 sm:grid-cols-4"
+              className="mt-12 grid max-w-3xl grid-cols-2 gap-x-6 gap-y-8 sm:mt-14 sm:grid-cols-4 sm:gap-0 sm:border-y sm:border-[#18202d]/10"
             >
               {stats.map((stat, index) => (
                 <div
                   key={stat.label}
-                  className={`py-5 ${
+                  className={`py-0 sm:py-5 ${
                     index !== 0
-                      ? "border-l border-[#18202d]/10 pl-4 sm:pl-5"
+                      ? "sm:border-l sm:border-[#18202d]/10 sm:pl-5"
                       : ""
                   }`}
                 >
@@ -854,14 +854,14 @@ export default function Home() {
         id="about"
         className="border-y border-[#18202d]/10 bg-white"
       >
-        <div className="mx-auto max-w-7xl px-5 py-24 sm:px-6 lg:py-32">
-          <div className="grid gap-16 lg:grid-cols-[0.85fr_1.15fr]">
+        <div className="mx-auto max-w-7xl px-5 py-16 sm:px-6 sm:py-24 lg:py-32">
+          <div className="grid gap-10 sm:gap-16 lg:grid-cols-[0.85fr_1.15fr]">
             <Reveal>
               <SectionHeading
                 number="01"
                 eyebrow="About Me"
                 title="Building solutions by understanding the problem first."
-                description="I am a D3 Information Technology student at University Brawijaya with an interest in Web Development, UI/UX Design, and System Development."
+                description="I am a D3 Information Technology student at Brawijaya University with an interest in Web Development, UI/UX Design, and System Development."
               />
             </Reveal>
 
@@ -873,14 +873,14 @@ export default function Home() {
   my technical and problem-solving skills.
 </p>
 
-                <div className="mt-10 grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-[#18202d]/10 bg-[#18202d]/10 sm:grid-cols-4">
+                <div className="mt-8 grid grid-cols-2 gap-x-6 gap-y-8 sm:mt-10 sm:grid-cols-4 sm:gap-px sm:overflow-hidden sm:rounded-2xl sm:border sm:border-[#18202d]/10 sm:bg-[#18202d]/10">
                   {[
                     ["Education", "D3 Teknologi Informasi"],
-                    ["University", "University Brawijaya"],
+                    ["University", "Brawijaya University"],
                     ["Semester", "Semester 5"],
                     ["Location", "Malang, Indonesia"],
                   ].map(([label, value]) => (
-                    <div key={label} className="bg-[#f7f6f2] p-5">
+                    <div key={label} className="bg-[#f7f6f2] p-0 sm:p-5">
                       <p className="text-[10px] font-bold uppercase tracking-[0.12em] text-[#9299a2]">
                         {label}
                       </p>
@@ -896,7 +896,7 @@ export default function Home() {
           </div>
 
           <Reveal delay={0.1}>
-            <div className="mt-24 overflow-hidden rounded-[2rem] bg-[#18202d] p-7 text-white sm:p-10 lg:p-12">
+            <div className="mt-16 overflow-hidden rounded-[2rem] bg-[#18202d] p-7 text-white sm:mt-24 sm:p-10 lg:p-12">
               <div className="grid gap-12 lg:grid-cols-[0.65fr_1.35fr]">
                 <div>
                   <SectionLabel number="01A">
@@ -1493,10 +1493,8 @@ export default function Home() {
                   </span>
                 </h2>
 
-                <p className="mt-7 max-w-2xl text-sm leading-8 text-white/55 sm:text-base">
-                  Saya terbuka untuk kesempatan magang, kolaborasi, dan
-                  diskusi seputar pengembangan web, UI/UX, sistem IoT,
-                  serta otomasi digital.
+                <p className="mt-7 max-w-2xl text-sm leading-8 text-white/55 sm:text-base">             
+I am open to internship opportunities, collaborations, and discussions regarding web development, UI/UX, IoT systems, and digital automation.
                 </p>
               </div>
 
