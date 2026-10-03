@@ -867,13 +867,11 @@ export default function Home() {
 
             <Reveal delay={0.1}>
               <div>
-                <p className="font-sans text-xl font-medium leading-9 tracking-[-0.02em] text-[#343c48] sm:text-2xl">
-                  Throughout my studies, I have developed various projects ranging from web applications and interface design to IoT-based systems and digital automation.
-                </p>
-
-                <p className="font-sans mt-7 max-w-2xl text-[15px] leading-8 text-[#747c86]">
-                  Through academic projects, organizational activities, and hands-on experience, I continue to develop my technical skills, problem-solving abilities, and approach to designing and building functional, user-friendly solutions.
-                </p>
+                <p className="max-w-2xl text-[15px] leading-8 text-[#747c86]">
+  Throughout my studies, I have developed projects in web development,
+  UI/UX design, IoT, and digital automation while continuously improving
+  my technical and problem-solving skills.
+</p>
 
                 <div className="mt-10 grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-[#18202d]/10 bg-[#18202d]/10 sm:grid-cols-4">
                   {[
