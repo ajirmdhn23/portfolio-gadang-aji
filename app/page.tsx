@@ -713,9 +713,7 @@ export default function Home() {
               }}
               className="mt-8 max-w-2xl text-base leading-8 text-[#68717d] sm:text-lg"
             >
-              Mahasiswa D3 Teknologi Informasi University Brawijaya semester
-              5 with an interest in pengembangan web, desain UI/UX,
-              pengembangan sistem, serta teknologi IoT dan otomasi digital.
+              D3 Information Technology student at Universitas Brawijaya, currently in my fifth semester, with an interest in web development, UI/UX design, system development, IoT, and digital automation
             </motion.p>
 
             <motion.div
@@ -869,17 +867,12 @@ export default function Home() {
 
             <Reveal delay={0.1}>
               <div>
-                <p className="text-xl font-medium leading-9 tracking-[-0.02em] text-[#343c48] sm:text-2xl">
-                  Throughout my studies, saya telah mengembangkan berbagai proyek
-                  mulai dari aplikasi web dan perancangan antarmuka hingga
-                  sistem berbasis IoT dan otomasi digital.
+                <p className="font-sans text-xl font-medium leading-9 tracking-[-0.02em] text-[#343c48] sm:text-2xl">
+                  Throughout my studies, I have developed various projects ranging from web applications and interface design to IoT-based systems and digital automation.
                 </p>
 
-                <p className="mt-7 max-w-2xl text-[15px] leading-8 text-[#747c86]">
-                  Through academic projects, organizational activities, dan pengalaman
-                  langsung, saya terus mengembangkan technical skills,
-                  problem-solving, serta approach to designing and building solutions
-                  yang functional and user-friendly.
+                <p className="font-sans mt-7 max-w-2xl text-[15px] leading-8 text-[#747c86]">
+                  Through academic projects, organizational activities, and hands-on experience, I continue to develop my technical skills, problem-solving abilities, and approach to designing and building functional, user-friendly solutions.
                 </p>
 
                 <div className="mt-10 grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-[#18202d]/10 bg-[#18202d]/10 sm:grid-cols-4">
@@ -917,9 +910,7 @@ export default function Home() {
                   </h3>
 
                   <p className="mt-5 max-w-sm text-sm leading-7 text-white/55">
-                    Saya mencoba melihat project bukan hanya dari sisi kode,
-                    tetapi juga dari kebutuhan pengguna dan bagaimana setiap
-                    bagian sistem saling terhubung.
+                    I approach projects not only from a coding perspective, but also by considering user needs and how each part of a system works together.
                   </p>
                 </div>
 
@@ -1309,8 +1300,8 @@ export default function Home() {
                               className={`text-xs font-black ${accent.text} transition hover:opacity-70`}
                             >
                               {isExpanded
-                                ? "Hide Detailss ↑"
-                                : "View Detailss →"}
+                                ? "Hide Details ↑"
+                                : "View Details →"}
                             </button>
                           </div>
                         </div>
